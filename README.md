@@ -7,7 +7,18 @@ anyone is free to practice git with this repo PR's will all be accepted.
 Adding directions and bash terminal "info/output"
 
 ***********************************************
+helpful links if you have problems pushing code
+ answers to ERRORS i encountered 
 
+https://stackoverflow.com/questions/20939648/issue-pushing-new-code-in-github
+
+https://github.com/rtyley/bfg-repo-cleaner/issues/29
+
+https://stackoverflow.com/questions/24357108/git-updates-were-rejected-because-the-remote-contains-work-that-you-do-not-have/43574620
+
+
+
+**************************************************
 $ git push -f origin master
 fatal: HttpRequestException encountered.
    An error occurred while sending the request.
