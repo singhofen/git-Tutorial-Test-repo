@@ -24,8 +24,11 @@ https://stackoverflow.com/questions/24357108/git-updates-were-rejected-because-t
 **************************************************
 $ git push -f origin master
 fatal: HttpRequestException encountered.
+<<<<<<< HEAD
    An error occurred while sending the request.
 
+=======
+>>>>>>> 903df6f41831cc818bc26d117c54326f6eafff49
 Counting objects: 23, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (23/23), done.
@@ -61,6 +64,7 @@ To push the current branch and set the remote as upstream, use
 $ git push --set-upstream origin master
 fatal: HttpRequestException encountered.
    
+
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
@@ -104,8 +108,12 @@ $ git commit -m 'added git test file'
 
 $ git push
 fatal: HttpRequestException encountered.
+<<<<<<< HEAD
    
 Counting objects: 3, done.
+=======
+ Counting objects: 3, done.
+>>>>>>> 903df6f41831cc818bc26d117c54326f6eafff49
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 651 bytes | 130.00 KiB/s, done.
@@ -151,7 +159,10 @@ $ git commit -m 'edited readme file'
 
 $ git push
 fatal: HttpRequestException encountered.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 903df6f41831cc818bc26d117c54326f6eafff49
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
