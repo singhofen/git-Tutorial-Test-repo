@@ -5,10 +5,13 @@ anyone is free to practice git with this repo PR's will all be accepted.
 
 *****************************
 Adding directions and bash terminal "info/output"
+**************************************************
+ # ProTip! Use the URL for this page when adding GitHub as a remote.
 
 ***********************************************
 helpful links if you have problems pushing code
- answers to ERRORS i encountered 
+answers to ERRORS i encountered 
+
 
 https://stackoverflow.com/questions/20939648/issue-pushing-new-code-in-github
 
