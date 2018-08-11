@@ -12,7 +12,16 @@ Adding directions and bash terminal "info/output"
 helpful links if you have problems pushing code
 answers to ERRORS i encountered 
 
+*********************************************************
+# Some other helpful commands
+echo "# git-Tutorial-repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin <url>
+git push -u origin master
 
+********************************************************************
 https://stackoverflow.com/questions/20939648/issue-pushing-new-code-in-github
 
 https://github.com/rtyley/bfg-repo-cleaner/issues/29
