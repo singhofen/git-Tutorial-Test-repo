@@ -4,7 +4,7 @@
 body {
     font-family: 'Abel', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    background: #fafafa;
+    background: #f3f3f3;
 }
 input {
     width: 500px;
@@ -66,7 +66,7 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid red;
+    border-bottom: 2px dotted red;
 }
 
 #sidebar ul p {
@@ -82,8 +82,8 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: white;
-    background: rgb(166, 166, 169);
+    color: rgb(17, 36, 245);
+    /* background: rgb(166, 166, 169); */
 }
 
 #sidebar ul li.active>a,
