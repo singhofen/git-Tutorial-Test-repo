@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Quicksand');
 
+h5{
+    font-weight: 700;
+}
 body {
     font-family: 'Abel', sans-serif;
     font-family: 'Quicksand', sans-serif;
