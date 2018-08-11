@@ -20,6 +20,9 @@ git add README.md
 git commit -m "first commit"
 git remote add origin <url>
 git push -u origin master
+ OR
+git remote add origin https://github.com/singhofen/git-Tutorial-repo.git
+git push -u origin master
 
 ********************************************************************
 https://stackoverflow.com/questions/20939648/issue-pushing-new-code-in-github
