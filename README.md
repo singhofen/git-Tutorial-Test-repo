@@ -28,6 +28,96 @@ https://stackoverflow.com/questions/24357108/git-updates-were-rejected-because-t
 6. git commit -m 'message to github'
 7. git push
 
+*************************************************
+# Creating new branch ~ sample terminal ~ what you may see on you local machine.
+Dont push your newly created branch to master unsless you are done with changes and making files for current project
+
+$ git checkout -b testBranch
+Switched to a new branch 'testBranch'
+
+$ touch testBranch.html
+
+$ git status
+On branch testBranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testBranch.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add testBranch.html
+
+$ git status
+On branch testBranch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testBranch.html
+
+$ git commit -m 'added test branch'
+[testBranch 7b2a1a9] added test branch
+ 1 file changed, 26 insertions(+)
+ create mode 100644 testBranch.html
+
+$ git status
+On branch testBranch
+nothing to commit, working tree clean
+
+$ git push
+fatal: The current branch testBranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin testBranch
+
+$ git push --set-upstream origin testBranch
+
+$ git status
+On branch testBranch
+Your branch is up-to-date with 'origin/testBranch'.
+
+$ touch test.txt
+
+$ git status
+On branch testBranch
+Your branch is up-to-date with 'origin/testBranch'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add .
+
+$ git status
+On branch testBranch
+Your branch is up-to-date with 'origin/testBranch'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+$ git commit -m 'added test txt file'
+[testBranch c5c7f1c] added test txt file
+ 1 file changed, 5 insertions(+)
+ create mode 100644 test.txt
+
+$ git push
+
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+
 **************************************************
 $ git push -f origin master <--will force push to github but may lose all previous files
 
